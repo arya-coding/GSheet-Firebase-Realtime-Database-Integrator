@@ -8,10 +8,10 @@ Code forked from Vaibhav Gehani ([Link]([url](https://enappd.com/blog/integratin
 
 - Synchronize data between Google Sheets and Firebase Realtime Database
 - Real-time updates for changes in either platform
-**- Import specific sheets from a spreadsheet**
-**- Display a progress status"**
+- **Import specific sheets from a spreadsheet**
+- **Display a progress status"**
 - Customizable data mapping for various use cases
-**- Automatic triggers on sheet changes -> Made it optionnal**
+- **Automatic triggers on sheet changes -> Made it optionnal**
 - User authentication and access control support
 
 ## Prerequisites
