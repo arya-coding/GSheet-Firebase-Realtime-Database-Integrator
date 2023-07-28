@@ -4,6 +4,8 @@ A simple, easy-to-use Google Apps Script solution that synchronizes data between
 
 Code forked from Vaibhav Gehani ([Link]([url](https://enappd.com/blog/integrating-google-sheets-with-firebase-realtime-database/182/)))
 
+This code was tested on ~3000 entries, not more. I'm not sure how performance wise it would behave with more entries. Feel free to share issues and updates.
+
 ## Features
 
 - Synchronize data between Google Sheets and Firebase Realtime Database
