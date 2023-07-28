@@ -153,7 +153,8 @@ if (options.range && options.range.getSheet().getName() === sheet.getName() && e
 
   var token = ScriptApp.getOAuthToken();
 
-  var firebaseUrl = getEnvironment().firebaseUrl + "navenkurdi/";
+// Replace XXX by your project name
+  var firebaseUrl = getEnvironment().firebaseUrl + "XXXX/";
   Logger.log("Writing data to Firebase Realtime Database: " + JSON.stringify(dataToImport));
   var base = FirebaseApp.getDatabaseByUrl(firebaseUrl, token);
   base.setData("", dataToImport);
